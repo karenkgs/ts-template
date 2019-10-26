@@ -4,9 +4,10 @@
   "main": "dist/src/index.js",
   "scripts": {
     "test": "jest",
-    "test-unit": "jest test/unit",
-    "test-integration": "jest test/integration",
-    "build": "tsc"
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/integration",
+    "build": "tsc",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts}' --quiet --fix"
   },
   "jest": {
     "testEnvironment": "node"

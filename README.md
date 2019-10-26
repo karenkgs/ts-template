@@ -17,11 +17,17 @@ see [versions](https://docs.npmjs.com/cli/version.html)
 
 ## Build 
  
-```tsc```
+`tsc` or `npm run build`
  
 ## Tests
  
-```npm test```
+`npm test` - Runs all tests
+`npm run test:unit` - Runs unit tests only
+`npm run test:integration` - Runs integration tests only
+
+## Linting
+
+`npm run lint`
 
 ## Changelog
 
