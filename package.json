@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "dist/src/index.js",
   "scripts": {
-    "test": "jest",
-    "test:unit": "jest test/unit",
-    "test:integration": "jest test/integration",
+    "test": "node_modules/jest/bin/jest.js",
+    "test:unit": "node_modules/jest/bin/jest.js  test/unit",
+    "test:integration": "node_modules/jest/bin/jest.js  test/integration",
     "build": "tsc",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts}' --quiet --fix"
   },
